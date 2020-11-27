@@ -154,7 +154,7 @@ function draw() {
   stroke('black')
   textAlign(CENTER)
   textFont(gameFont)
-  textSize(50);
+  textSize(Math.floor(windowHeight)/13);
   fill('yellow')
   text(distanceCovered.toFixed(1) + ' m', (canW/2), canH/6.5);
 
